@@ -16,9 +16,6 @@ I created a Livewire component that runs a ping between the web server and the c
 Here is a demostration of what we well create in the next 20 minutes:
 [![The ping time component demo](https://github.com/dumisanigegana/Ping-recip-sample/blob/14018c558dd228dc743d6b9684abaca4b8cf3de7/using-livewire-to-test-ping-time-demo.gif)](# "The ping time component demo")
 
-Here is the logic flow.
-[![The ping time component flowchart](using-livewire-to-test-ping-time-flowchat.png "The ping time component flowchart")](# "The ping time component flowchart")
-
 ###### Requirements. 
 To proceed with this tutorial, be sure that you have a Laravel and Livewire installed and configured. Note, for designing, I used Tailwind CSS, however you may replace it according to your preferences. 
 
@@ -117,6 +114,8 @@ Take note of the `wire:` directives in the checkbox input tag. The `wire:model=â
 Next, we used the `@if` derivative conditionally display the polling component, based on the value of the `$ping` state. This polling component continuously executes the `pingInit()` function. The `.1s` forces the execution to to be fired once after every second.
 
 Finally, we display the results in the file show-posts.blade.php, by looping through the `$pingTimes` array.
-We have completed the task and I hope you enjoyed the simplicity of Livewire.
+We have completed the task and I hope you enjoyed the simplicity of Livewire. Basically thi is the flawchart if the of the componet we just created:
+Here is the logic flow.
+[![The ping time component flowchart](using-livewire-to-test-ping-time-flowchat.png "The ping time component flowchart")](# "The ping time component flowchart")
 
 
