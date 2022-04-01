@@ -14,7 +14,7 @@ How possible it is to come up with means of tracking the round trip time, betwee
 I created a Livewire component that runs a ping between the web server and the client’s browser, and this blog will show you how simple it is to do it. The test is initiated from the browser, by clicking a button, then the server records the current time, and then it sends a ping to the IP address of the client. Upon receiving the response from the client, the current time is recorded and the ping time is computed by finding the difference between the two recorded times. Finally, the server sends it to the browser computes the ping, and returns the ping time to the browser. 
 
 Here is a demostration of what we well create in the next 20 minutes:
-[![The ping time component demo](https://github.com/dumisanigegana/Ping-recip-sample/blob/14018c558dd228dc743d6b9684abaca4b8cf3de7/using-livewire-to-test-ping-time-demo.gif)](# "The ping time component demo")
+[![The ping time component demo](https://github.com/dumisanigegana/Ping-server-from-the-browser-livewire/blob/12a6b40e463ff311dfe616528d7fb131beaa2810/using-livewire-to-test-ping-time-demo.gif)](# "The ping time component demo")
 
 ###### Requirements. 
 To proceed with this tutorial, be sure that you have a Laravel and Livewire installed and configured. Note, for designing, I used Tailwind CSS, however you may replace it according to your preferences. 
@@ -116,6 +116,6 @@ Next, we used the `@if` derivative conditionally display the polling component, 
 Finally, we display the results in the file show-posts.blade.php, by looping through the `$pingTimes` array.
 We have completed the task and I hope you enjoyed the simplicity of Livewire. Basically thi is the flawchart if the of the componet we just created:
 Here is the logic flow.
-[![The ping time component flowchart](using-livewire-to-test-ping-time-flowchat.png "The ping time component flowchart")](# "The ping time component flowchart")
+[![The ping time component flowchart](https://github.com/dumisanigegana/Ping-server-from-the-browser-livewire/blob/12a6b40e463ff311dfe616528d7fb131beaa2810/using-livewire-to-test-ping-time-flowchat.png)](# "The ping time component flowchart")
 
 
