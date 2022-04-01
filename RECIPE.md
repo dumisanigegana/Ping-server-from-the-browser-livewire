@@ -16,7 +16,7 @@ I created a Livewire component that runs a ping between the web server and the c
 Here is a demostration of what we well create in the next 20 minutes:
 [![The ping time component demo](https://github.com/dumisanigegana/Ping-server-from-the-browser-livewire/blob/12a6b40e463ff311dfe616528d7fb131beaa2810/using-livewire-to-test-ping-time-demo.gif)](# "The ping time component demo")
 
-###### Requirements. 
+###### Prerequisites. 
 To proceed with this tutorial, be sure that you have a Laravel and Livewire installed and configured. Note, for designing, I used Tailwind CSS, however you may replace it according to your preferences. 
 
 ###### Generate the Component files.
