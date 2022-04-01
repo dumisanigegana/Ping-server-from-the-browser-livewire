@@ -16,7 +16,7 @@ I created a Livewire component that runs a ping between the web server and the c
 Here is the logic flow.
 [pic][![The ping time component flowchart](https://raw.githubusercontent.com/dumisanigegana/Fly.io-Laravel-Livewire-Hiring-Project/blob/main/using-livewire-to-test-ping-time-flowchat.png "The ping time component flowchart")](# "The ping time component flowchart")
 
-######Requirements. 
+###### Requirements. 
 To proceed with this tutorial, be sure that you have a Laravel and Livewire installed and configured. Note, for designing, I used Tailwind CSS, however you may replace it according to your preferences. 
 
 ###### Generate the Component files.
