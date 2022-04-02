@@ -119,3 +119,8 @@ Here is the logic flow.
 [![The ping time component flowchart](https://github.com/dumisanigegana/Ping-server-from-the-browser-livewire/blob/12a6b40e463ff311dfe616528d7fb131beaa2810/using-livewire-to-test-ping-time-flowchat.png)](# "The ping time component flowchart")
 
 
+## Discussion
+
+It is amazing how Livewire empowers developers with the ability to implement efficient real-time and post-event analytics, from either the client or server. This blog may help in developing tools for troubleshooting and monitoring networks to multiple remote sites, and real-time data visualization may be incorporated to display the returned values.
+
+-- 
